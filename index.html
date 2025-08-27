@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoes</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./shoes.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row col-11 m-2 p-3">
+        
+            <div class="bigimg  gy-3 m-3">
+                <img id="mainimg" src="https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" height="500px" width="500px" alt="">
+                <div class="col-md-6 m-3 p-3">
+                    <h4><b class="text-success">Brand:</b> Nike</h4>
+                    <h4  style="margin-top: 20px;"><b class="text-success">Price:</b>$56567</h4>
+                    <select style="margin-right: 5px; margin-top: 20px;" >
+                        <option >Small</option>
+                        <option value="select size">large</option>
+                        <option value="select size">XL</option>
+                        <option value="select size">double XL</option>
+                    </select>
+                    <i class="fa-solid fa-cart-shopping btn btn-success"> Add to cart</i>
+                    <p style="margin-top: 30px; font-weight: bold;"><b class="text-success">Discription:</b> Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eum voluptate sint nesciunt eos saepe dolor, pariatur maiores quam, quis accusantium aut quibusdam. Autem omnis non explicabo qui nesciunt ipsa. sit amet consectetur adipisicing elit. Sint, iusto!</p>
+
+                 
+                </div>
+            </div>
+           <div class="head container-fluid" > 
+            <h2  class="" >Similar Product</h2>
+            </div>
+            <div class="smallimg col-sm-12 col-md-3">
+                <img class="simg" onclick="img()" src="https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" alt="">
+                <img class="simg" onclick="img1()" src="https://img.freepik.com/premium-photo/colorful-sport-shoes-mustard-color-wall_151013-4913.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" alt="">
+                <img class="simg" onclick="img2()" src="https://img.freepik.com/free-photo/modern-blue-sports-shoe-design-close-up-fashionable-generated-by-ai_188544-19682.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" alt="">
+                <img class="simg"onclick="img3()" src="https://img.freepik.com/free-photo/new-pair-white-sneakers-isolated-white_93675-133039.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" alt="">
+                <img class="simg" onclick="img4()" src="https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" alt="">
+            </div>
+         
+        </div>
+    </div>
+    <script>
+         a=document.getElementById("mainimg")            
+        function img(){
+            a.src="https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" 
+        }
+        function img1(){
+            a.src="https://img.freepik.com/premium-photo/colorful-sport-shoes-mustard-color-wall_151013-4913.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" 
+        }
+        function img2(){
+            a. src="https://img.freepik.com/free-photo/modern-blue-sports-shoe-design-close-up-fashionable-generated-by-ai_188544-19682.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph"
+        }
+        function img3(){
+            a.src="https://img.freepik.com/free-photo/new-pair-white-sneakers-isolated-white_93675-133039.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph"
+        }
+        function img4(){
+            a.src="https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&ga=GA1.1.773178888.1673295137&semt=sph" 
+        }
+    </script>
+</body>
+</html>
